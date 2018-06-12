@@ -1,0 +1,80 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6934124648,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "Checking the Register link on Home page",
+        "description": "",
+        "id": "testing-register-link-functionlaity-in-flight-page;checking-the-register-link-on-home-page",
+        "after": [
+          {
+            "result": {
+              "duration": 1251075000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3243466179,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I Open Mercury Flight Application",
+            "match": {
+              "location": "HomeSteps.openFlightApplication()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 591696374,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Click on the Register link in the Home page",
+            "match": {
+              "location": "HomeSteps.navigatetoregisterpage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 18612973,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Register page should displayed",
+            "match": {
+              "location": "HomeSteps.registerpagedisplayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Testing Register link functionlaity in Flight page",
+    "description": "",
+    "id": "testing-register-link-functionlaity-in-flight-page",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/FlighRegistration.feature"
+  }
+]
